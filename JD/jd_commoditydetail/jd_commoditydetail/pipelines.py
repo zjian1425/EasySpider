@@ -11,7 +11,7 @@ import pymysql
 class JdCommoditydetailPipeline(object):
 
     def __int__(self):
-        self.conn = pymysql.connect('183.129.168.211','hexi','hexi123','db_ecommerce',charset='utf8')
+        self.conn = pymysql.connect('IP','USENAME','PASSWORD','DB_NAME',charset='utf8')
         self.cursor = self.conn.cursor()
 
     def process_item(self,item,spider):
