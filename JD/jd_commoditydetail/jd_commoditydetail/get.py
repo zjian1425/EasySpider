@@ -8,7 +8,7 @@
 import pymysql
 
 def geturl(flag):
-    conn = pymysql.connect('183.129.168.211', 'hexi', 'hexi123', 'db_ecommerce', charset='utf8')
+    conn = pymysql.connect('IP', 'USERNAME', 'PASSWORD', 'DB_NAME', charset='utf8')
     cursor = conn.cursor()
 
     do_select = '''select com_url from jd_url'''
