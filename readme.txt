@@ -1,1 +1,0 @@
-以上项目都是主要是基于scrapy框架,一部分由于某些原因使用scrapy框架不便，所以使用了requests库编写代码逻辑（zhihu中的用户token等）。
