@@ -1,0 +1,132 @@
+1532324670091	geckodriver	INFO	geckodriver 0.21.0
+1532324670101	geckodriver	INFO	Listening on 127.0.0.1:59587
+1532324671102	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OngRfFyQjihw"
+1532324675894	Marionette	INFO	Listening on port 33685
+1532324675920	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=1432_21080_26350_26807&csor=7&pwd=seleni&cb=jQuery110207703768051488136_1532324679810&_=1532324679818, line 1: TypeError: jQuery110207703768051488136_1532324679810 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1432_21080_26350_26807&csor=6&pwd=selen&cb=jQuery110207703768051488136_1532324679810&_=1532324679817, line 1: TypeError: jQuery110207703768051488136_1532324679810 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1432_21080_26350_26807&csor=5&pwd=sele&cb=jQuery110207703768051488136_1532324679810&_=1532324679816, line 1: TypeError: jQuery110207703768051488136_1532324679810 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=1432_21080_26350_26807&csor=8&pwd=seleniu&cb=jQuery110207703768051488136_1532324679810&_=1532324679819, line 1: TypeError: jQuery110207703768051488136_1532324679810 is not a function
+[Parent 11046, Gecko_IOThread] WARNING: pipe error (76): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1532340470959	geckodriver	INFO	geckodriver 0.21.0
+1532340471010	geckodriver	INFO	Listening on 127.0.0.1:51537
+1532340471958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BhspOFwbu16t"
+1532340478353	Marionette	INFO	Listening on port 40525
+1532340478383	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=26525_1456_21113_26350_20929&csor=4&pwd=sel&cb=jQuery1102016777623790409113_1532340483112&_=1532340483117, line 1: TypeError: jQuery1102016777623790409113_1532340483112 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=26525_1456_21113_26350_20929&csor=5&pwd=sele&cb=jQuery1102016777623790409113_1532340483112&_=1532340483118, line 1: TypeError: jQuery1102016777623790409113_1532340483112 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=26525_1456_21113_26350_20929&csor=7&pwd=seleni&cb=jQuery1102016777623790409113_1532340483112&_=1532340483120, line 1: TypeError: jQuery1102016777623790409113_1532340483112 is not a function
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1532340509306	geckodriver	INFO	geckodriver 0.21.0
+1532340509317	geckodriver	INFO	Listening on 127.0.0.1:46085
+1532340510324	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WaOsP4CawBxN"
+1532340515381	Marionette	INFO	Listening on port 46811
+1532340515447	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=26524_1461_21113_26350_20928&csor=4&pwd=sel&cb=jQuery11020435234321197531_1532340519193&_=1532340519198, line 1: TypeError: jQuery11020435234321197531_1532340519193 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=26524_1461_21113_26350_20928&csor=7&pwd=seleni&cb=jQuery11020435234321197531_1532340519193&_=1532340519201, line 1: TypeError: jQuery11020435234321197531_1532340519193 is not a function
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1532413498930	geckodriver	INFO	geckodriver 0.21.0
+1532413498957	geckodriver	INFO	Listening on 127.0.0.1:58921
+1532413499944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4WvjyLij9Va0"
+1532413504783	Marionette	INFO	Listening on port 37341
+1532413504870	Marionette	WARN	TLS certificate errors will be ignored for this session
+1532413506944	geckodriver	INFO	geckodriver 0.21.0
+1532413506957	geckodriver	INFO	Listening on 127.0.0.1:34397
+1532413507952	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DgXVVEtyzgmx"
+1532413513164	Marionette	INFO	Listening on port 37511
+1532413513183	Marionette	WARN	TLS certificate errors will be ignored for this session
+1532413513323	geckodriver	INFO	geckodriver 0.21.0
+1532413513334	geckodriver	INFO	Listening on 127.0.0.1:33909
+1532413514334	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VkXnoQSUbPd4"
+1532413520306	Marionette	INFO	Listening on port 39883
+1532413520372	Marionette	WARN	TLS certificate errors will be ignored for this session
+1532413520506	geckodriver	INFO	geckodriver 0.21.0
+1532413520517	geckodriver	INFO	Listening on 127.0.0.1:53721
+1532413521517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.b4QUmAa4mHvi"
+1532413527650	Marionette	INFO	Listening on port 37597
+1532413527780	Marionette	WARN	TLS certificate errors will be ignored for this session
+1532413528017	geckodriver	INFO	geckodriver 0.21.0
+1532413528026	geckodriver	INFO	Listening on 127.0.0.1:53979
+1532413529031	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8GAOd2sFjPO4"
+1532413534978	Marionette	INFO	Listening on port 45521
+1532413535065	Marionette	WARN	TLS certificate errors will be ignored for this session
+1532413535366	geckodriver	INFO	geckodriver 0.21.0
+1532413535378	geckodriver	INFO	Listening on 127.0.0.1:52341
+1532413536379	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZUPLJ5tHqRQ8"
+1532413542685	Marionette	INFO	Listening on port 34777
+1532413542715	Marionette	WARN	TLS certificate errors will be ignored for this session
+1532413542886	geckodriver	INFO	geckodriver 0.21.0
+1532413542899	geckodriver	INFO	Listening on 127.0.0.1:49945
+1532413543899	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MWOB7yRcEeMO"
+1532413550327	Marionette	INFO	Listening on port 43623
+1532413550358	Marionette	WARN	TLS certificate errors will be ignored for this session
+1532413550530	geckodriver	INFO	geckodriver 0.21.0
+1532413550544	geckodriver	INFO	Listening on 127.0.0.1:38817
+1532413551544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lsL8UjojM93t"
+1532413558074	Marionette	INFO	Listening on port 45715
+1532413558169	Marionette	WARN	TLS certificate errors will be ignored for this session
+1532413558413	geckodriver	INFO	geckodriver 0.21.0
+1532413558422	geckodriver	INFO	Listening on 127.0.0.1:34273
+1532413559424	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Yj11usMCwcui"
+1532413565713	Marionette	INFO	Listening on port 34959
+1532413565778	Marionette	WARN	TLS certificate errors will be ignored for this session
+1532413565927	geckodriver	INFO	geckodriver 0.21.0
+1532413565936	geckodriver	INFO	Listening on 127.0.0.1:38439
+1532413566936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UEN2MqirNKn5"
+1532413573320	Marionette	INFO	Listening on port 36447
+1532413573374	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 24: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 218: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 148: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 38: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 100: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 21: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 24: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 218: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 148: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 38: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 100: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??node-min.js,anim-min.js,anim/base-min.js,anim/timer-min.js,anim/transition-min.js,base-min.js,attribute-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,xtemplate/runtime-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js,xtemplate-min.js,xtemplate/compiler-min.js?t=1.js, line 21: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18239, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18177, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 17586, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 17530, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18553, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18499, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18714, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18861, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18813, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18065, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18010, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 17904, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 17845, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 17418, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17362, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18399, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18341, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 17738, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Fi74rA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
