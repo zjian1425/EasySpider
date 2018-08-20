@@ -149,8 +149,3 @@ veromoda = {
 'https://veromoda.tmall.com/category.htm?spm=a1z10.3-b-s.w4011-14529808362.107.62963592ttDswC&search=y&scene=taobao_shop&pageNo=55#anchor',
 
 }
-
-
-
-
-account ='g1200dragon'
