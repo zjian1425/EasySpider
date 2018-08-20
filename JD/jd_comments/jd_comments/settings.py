@@ -91,34 +91,15 @@ AUTOTHROTTLE_DEBUG = True
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 Database = {
-    'IP':'183.129.168.211',
-    'USERNAME':'hexi',
-    'PASSWORD':'hexi123',
-    'DB_NAME':'db_ecommerce',
+    'IP':'',
+    'USERNAME':'',
+    'PASSWORD':'',
+    'DB_NAME':'',
 }
 
+
+#已失效
 CookiesList = [
-    {
-        '__jdu':'1839807026',
-        'PCSYCityID':'1213',
-        'shshshfpa': '94c860c8-802f-d4fc-ac8e-504106ee99f4-1533006681',
-        'shshshfpb': '00280ef1e94a43e539607b8a658b34935aaf8ef68c16c53515b5fd380a',
-        'ipLoc-djd': '1-72-2799-0',
-        'user-key': '3466e0ab-544a-4555-b990-cc558c0cbaa5',
-        '_pst': 'jd_7dbcc0d507e50',
-        'unick': 'jd_7dbcc0d507e50',
-        'pin': 'jd_7dbcc0d507e50',
-        '_tp': 'ClsOuI00UMDdsoohJ51%2FGEp2yZwlSd1yUciHE7DSatg%3D',
-        'unpl': 'V2_ZzNtbUZVQ0J0AEFXKxpYDWIGRVVLXhEdIQBOV3IYWlZhUBJcclRCFXwUR11nGFwUZgsZXkpcQhNFCHZXchBYAWcCGllyBBNNIEwHDCRSBUE3XHxcFVUWF3RaTwEoSVoAYwtBDkZUFBYhW0IAKElVVTUFR21yVEMldQl2VHIbVAxmBRNeRWdzEkU4dlF7GVUMVwIiXHIVF0lwCUFUexoRBW4BGlRDUUIWcjhHZHg%3d',
-        '__jdv': '122270672|baidu-pinzhuan|t_288551095_baidupinzhuan|cpc|0f3d30c8dba7459bb52f2eb5eba8ac7d_0_531f0962a25944f988c9e992807b7b10|1533086955067',
-        'TrackID': '1CaqsS9zplBT6DVArAA4aGhHisccU0_EGskLL_4EDvp0WdWJERZ1C76vMWPoA0tfYBXhPkwP1PicwqVjMhXuhWxnmKyAQQ7nlMo6QXOVYuJk',
-        'pinId': 'hncu_uy-3DLFBjlFC_Qs7LV9-x-f3wj7',
-        'shshshfp': 'e58a4c08f191312e7eb744da840063f1',
-        'cn': '0',
-        '__jda': '122270672.1839807026.1533006679.1533105517.1533174369.4',
-        '__jdc': '122270672',
-        '3AB9D23F7A4B3C9B': 'WGCIWKYGYK7GCZWGUSRX4NFCT4SHHS65GKNGVQMMRIEWESN4VPSANJJ37YDIZGSI5FMC4NKOZP6LSNWSFBIJFOF2EI'
-    },
     {
         '__jda': '122270672.15293061551681071550732.1529306155.1529306155.1533190868.1',
         'unpl': 'V2_ZzNtbRdSFxYiDhMBfR9VBWIDEQgSU0JCIFtBAS5MVVc0ABtfclRCFXwUR11nGF8UZwYZXkFcRh1FCEdkex5fDGQzFFRHUUQRdAt2ZHgZbA1XAxZeSlVCEnUMQlR8EFwEYQMWWUNRQRZFOEFkS83Jrr%2bIhQ8DFZql0N7s%2bkseWQJhChtYRmdCJXQ4DTp6VFwBZAsQXEVXRxF1D09Ueh9cAWMCFF9BZ0Ildg%3d%3d',
