@@ -154,5 +154,12 @@ veromoda = {
 
 }
 
+Database = {
+    'IP':'183.129.168.211',
+    'USERNAME':'hexi',
+    'PASSWORD':'hexi123',
+    'DB_NAME':'db_ecommerce',
+}
 
+account ='g1200dragon'
 
