@@ -155,15 +155,22 @@ veromoda = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36f47cc0d3812f1e77bbce72ea060c757513530a
 Database = {
     'IP':'183.129.168.211',
     'USERNAME':'hexi',
     'PASSWORD':'hexi123',
     'DB_NAME':'db_ecommerce',
 }
+<<<<<<< HEAD
 
 account ='g1200dragon'
 =======
+=======
+>>>>>>> 36f47cc0d3812f1e77bbce72ea060c757513530a
 
+account ='g1200dragon'
 
 >>>>>>> 93f6af6c4fab9f6fbecf22dedb74f4cbcf1daaa8
