@@ -4,39 +4,11 @@
     <list default="true" id="69fe6a21-a604-4282-8ecc-7d7b0a013a04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../JD/jd_comments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JD/jd_comments/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JD/jd_url/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JD/jd_url/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/.idea/AimShopSpider_Comments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/.idea/AimShopSpider_Comments.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/GetID.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/GetID.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/Random_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/Random_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/HM.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/HM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/HM_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/HM_tag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/LeTin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/LeTin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/LeTin_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/LeTin_tag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/Loytio.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/Loytio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/Loytio_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/Loytio_tag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/PeaceBird.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/PeaceBird.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/PeaceBird_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/PeaceBird_tag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/Uniqlo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/Uniqlo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/Uniqlo_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/AimShopSpider_Comments/spiders/Uniqlo_tag.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AimShopSpider_CommodityID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_CommodityID/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimShopSpider_CommodityID/AimShopSpider_CommodityID/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_CommodityID/AimShopSpider_CommodityID/middlewares.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AimShopSpider_CommodityID/AimShopSpider_CommodityID/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_CommodityID/AimShopSpider_CommodityID/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AimShopSpider_Detail.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AimShopSpider_Detail.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AimShopSpider_CommodityID/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_CommodityID/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimShopSpider_Detail/Get_URL_from_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/AimShopSpider_Detail/Get_URL_from_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimShopSpider_Detail/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/AimShopSpider_Detail/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimShopSpider_Detail/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/AimShopSpider_Detail/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimShopSpider_Detail/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AimShopSpider_Detail/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimShopSpider_Detail/spiders/HM.py" beforeDir="false" afterPath="$PROJECT_DIR$/AimShopSpider_Detail/spiders/HM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimShopSpider_Detail/spiders/LeTin.py" beforeDir="false" afterPath="$PROJECT_DIR$/AimShopSpider_Detail/spiders/LeTin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimShopSpider_Detail/spiders/Loytio.py" beforeDir="false" afterPath="$PROJECT_DIR$/AimShopSpider_Detail/spiders/Loytio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimShopSpider_Detail/spiders/PeaceBird.py" beforeDir="false" afterPath="$PROJECT_DIR$/AimShopSpider_Detail/spiders/PeaceBird.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimShopSpider_Detail/spiders/Uniqlo.py" beforeDir="false" afterPath="$PROJECT_DIR$/AimShopSpider_Detail/spiders/Uniqlo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YDMHTTPDemo3.x.py" beforeDir="false" afterPath="$PROJECT_DIR$/YDMHTTPDemo3.x.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,8 +97,10 @@
     <session id="-129841836">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -141,12 +115,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="96" />
+          <entry key="py" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="96" />
+          <entry key="Python" value="122" />
         </counts>
       </usages-collector>
     </session>
@@ -156,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AimShopSpider_Detail/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="93" selection-start-line="93" selection-end-line="100" selection-end-column="22" />
+            <state relative-caret-position="2100">
+              <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -165,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AimShopSpider_Detail/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+            <state relative-caret-position="648">
+              <caret line="164" selection-start-line="164" selection-end-line="164" />
               <folding>
                 <element signature="e#253#1915#0" />
                 <element signature="e#1977#3620#0" />
@@ -178,8 +152,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AimShopSpider_Detail/Get_URL_from_mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="252">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="e#168#182#0" expanded="true" />
               </folding>
@@ -226,10 +200,10 @@
         <option value="$PROJECT_DIR$/AimShopSpider_Detail/spiders/Uniqlo.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_Detail/spiders/Zara.py" />
         <option value="$PROJECT_DIR$/YDMHTTPDemo3.x.py" />
-        <option value="$PROJECT_DIR$/AimShopSpider_Detail/settings.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_Detail/pipelines.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_Detail/middlewares.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_Detail/Get_URL_from_mysql.py" />
+        <option value="$PROJECT_DIR$/AimShopSpider_Detail/settings.py" />
       </list>
     </option>
   </component>
@@ -251,7 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,27 +232,17 @@
               <item name="AimShopSpider_Detail" type="b2602c69:ProjectViewProjectNode" />
               <item name="AimShopSpider_Detail" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AimShopSpider_Detail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AimShopSpider_Detail" type="462c0819:PsiDirectoryNode" />
-              <item name="AimShopSpider_Detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AimShopSpider_Detail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AimShopSpider_Detail" type="462c0819:PsiDirectoryNode" />
-              <item name="AimShopSpider_Detail" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AimShopSpider_Comments" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -445,9 +408,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1503856" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14717224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -530,7 +492,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AimShopSpider_Detail/spiders/VeroModa.py" />
     <entry file="file://$PROJECT_DIR$/render_page_source.html" />
     <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/twisted/internet/defer.py" />
     <entry file="file://$PROJECT_DIR$/AimShopSpider_Detail/spiders/Only.py">
@@ -603,9 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="63" column="2" lean-forward="true" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
-          <folding>
-            <element signature="e#158#171#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,9 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
           <caret line="51" column="46" lean-forward="true" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
-          <folding>
-            <element signature="e#194#208#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,23 +613,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1638">
           <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
-          <folding>
-            <element signature="e#159#172#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AimShopSpider_Detail/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="93" selection-start-line="93" selection-end-line="100" selection-end-column="22" />
+        <state relative-caret-position="2100">
+          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AimShopSpider_Detail/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+        <state relative-caret-position="648">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
           <folding>
             <element signature="e#253#1915#0" />
             <element signature="e#1977#3620#0" />
@@ -684,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AimShopSpider_Detail/Get_URL_from_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="252">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="e#168#182#0" expanded="true" />
           </folding>

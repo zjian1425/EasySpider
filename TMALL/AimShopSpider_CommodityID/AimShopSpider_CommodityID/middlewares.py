@@ -123,25 +123,22 @@ class SeleniumFirefoxRenderAjaxDownloaderMiddleware(object):
         '''猜想：这一步操作是否可以放置在process_response中去控制'''
         while True:
             spider.driver.get(request.url)
-
-            spider.driver.execute_script("window.scrollBy(0,{0})".format(self.random_scroll_lenth()))
-            time.sleep(self.wait_time())
-            spider.driver.execute_script("window.scrollBy(0,{0})".format(self.random_scroll_lenth()))
-            time.sleep(self.wait_time())
-            spider.driver.execute_script("window.scrollBy(0,{0})".format(self.random_scroll_lenth()))
-
-            content = spider.driver.page_source.encode('utf8','ignore')
-            if self.account in str(content): #条件
-                print('ready to return HtmlRespnse!')
-                flag += 1
-                break #知道成功才退出循环
-            else:
+            content = spider.driver.page_source.encode('utf8', 'ignore')
+            if self.account not in str(content): #条件:
                 time.sleep(20) #登录帐号
                 '''这里最好能实现自动登录利用selenium'''
                 '''手动操作：刷二维码（有可能需要两次）'''
                 #第一次扫描二维码点击确认登录后浏览器上方的地址栏会跳出拦截重定向的提示，在扫描一次就不会出现这样的
                 # 问题，即成功登录淘宝
-
+            else:
+                spider.driver.execute_script("window.scrollBy(0,{0})".format(self.random_scroll_lenth()))
+                time.sleep(self.wait_time())
+                spider.driver.execute_script("window.scrollBy(0,{0})".format(self.random_scroll_lenth()))
+                time.sleep(self.wait_time())
+                spider.driver.execute_script("window.scrollBy(0,{0})".format(self.random_scroll_lenth()))
+                print('ready to return HtmlRespnse!')
+                flag += 1
+                break #知道成功才退出循环
         return HtmlResponse(spider.driver.current_url, encoding='utf8', body=content, request=request)
 
 
