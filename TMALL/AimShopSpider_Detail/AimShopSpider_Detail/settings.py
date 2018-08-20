@@ -89,3 +89,13 @@ AUTOTHROTTLE_DEBUG = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+
+Database = {
+    'IP':'xxxxx',
+    'USERNAME':'xxxx',
+    'PASSWORD':'xxxxx',
+    'DB_NAME':'xxxxx',
+}
+
+account ='xxxxxxx'

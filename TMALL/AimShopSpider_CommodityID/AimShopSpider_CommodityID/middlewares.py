@@ -117,7 +117,6 @@ class SeleniumFirefoxRenderAjaxDownloaderMiddleware(object):
         #这里需要注意的一点是可以通过if 判断spider.name或者request.url(正则匹配)来处理
         #需要用到selenium加载动态网页的爬虫或者url，这样就不用使用selenium去动态加载每一个页面了
 
-
         print('start request')
         flag = 0 #判断死循环跳出标志
 

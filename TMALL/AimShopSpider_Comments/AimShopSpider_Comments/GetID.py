@@ -10,10 +10,11 @@
 import pymysql
 import sys
 import time
+from AimShopSpider_Comments.settings import Database as db
 
 def GetCommodityID(flag,spidername):
     '''initialization'''
-    conn = pymysql.connect('XXXXX','XXXX','XXXXX','XXXXX',charset='utf8')
+    conn = pymysql.connect(db['IP'],db['USERNAME'],db['PASSWORD'],db['DB_NAME'],charset='utf8')
     cursor = conn.cursor()
     
     if flag==0:

@@ -6,13 +6,14 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 import pymysql
+from AimShopSpider_Comments.settings import Database as db
 
 class AimshopspiderCommentsPipeline(object):
     AllCommentsName = ['HM', 'Hstyle', 'LeTin', 'Loytio', 'Only',
                        'PeaceBird', 'Qimi', 'Uniqlo', 'Veromoda',
                        'Zara']
     def __init__(self):
-        self.conn = pymysql.connect('XXXX','XXX','XXXX','XXXXXXX',charset='utf8')
+        self.conn = pymysql.connect(db['IP'],db['USERNAME'],db['PASSWORD'],db['DB_NAME'],charset='utf8')
         self.cursor = self.conn.cursor()
         
     def process_item(self, item, spider):

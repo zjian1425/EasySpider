@@ -7,9 +7,10 @@
 
 import pymysql
 import sys
+from AimShopSpider_Detail.settings import Database as db
 
 def get(flag,spider_name):
-    conn = pymysql.connect('IP','NAME','PASSWD','DB_NAME',charset='utf8')
+    conn = pymysql.connect(db['IP'],db['USERNAME'],db['PASSWORD'],db['DB_NAME'],charset='utf8')
     cursor = conn.cursor()
 
     if flag==0:

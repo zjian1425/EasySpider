@@ -7,6 +7,9 @@
 
 import pymysql
 import logging
+from AimShopSpider_Detail.settings import Database as db,account
+
+
 
 # 实例化
 logger = logging.getLogger('Error')
@@ -27,19 +30,20 @@ logger.setLevel(logging.ERROR)
 def log(info):
     logger.info(info)
 
-
+import datetime
 class AimshopspiderDetailPipeline(object):
     def __init__(self):
-        self.conn = pymysql.connect('IP','NAME','PASSWORD','DB_NAME',charset='utf8')
+        self.conn = pymysql.connect(db['IP'],db['USERNAME'],db['PASSWORD'],db['DB_NAME'],charset='utf8')
         self.cursor = self.conn.cursor()
 
 
     def process_item(self, item, spider):
+        c_time = datetime.datetime.now().strftime('%Y-%m-%d')  # 数据库表中com_id 和 crawls_time 设置了联合主键
         do_insert = ''' insert into commodity_detail(com_id,title,o_price,n_price,sale_nums,comment_nums,
-        fav_nums,product_params,shop_name
-                    )values (%s,%s,%s,%s,%s,%s,%s,%s,%s)'''
+        fav_nums,product_params,shop_name,crawls_time
+                    )values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)'''
         param = (item['com_id'],item['title'],item['o_price'],item['n_price'],item['sale_nums'],item['comment_nums'],
-                 item['fav_nums'],item['product_params'],spider.name)
+                 item['fav_nums'],item['product_params'],spider.name,c_time)
         try:
             self.cursor.execute(do_insert,param)
             self.conn.commit()

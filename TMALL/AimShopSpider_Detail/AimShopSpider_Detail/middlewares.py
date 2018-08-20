@@ -105,10 +105,10 @@ class AimshopspiderDetailDownloaderMiddleware(object):
 import random
 import time
 from scrapy.http import HtmlResponse
-
+from AimShopSpider_Detail.settings import account
 class SeleniumFirefoxRenderAjaxDownloaderMiddleware(object):
 
-    account = 'XXXXXXX'
+    account = account
     warnningtag = '发现您的网络环境有异常，为保证正常使用，请验证。'
     #思想是控制在同一个session中抓取数据
     def process_request(self,request,spider):
