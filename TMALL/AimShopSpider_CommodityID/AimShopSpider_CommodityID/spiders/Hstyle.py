@@ -48,7 +48,7 @@ class Hstyle(scrapy.Spider):
         
     
     def parse(self, response):
-        for i in range(2,47):
+        for i in range(2,52):
             url = 'https://handuyishe.tmall.com/category.htm?pageNo={0}&orderType=defaultSort'.format(i)
             '''iteration  / generation'''
             yield Request(url=url,callback=self.parse_detail)#注意这里调用不需要有()

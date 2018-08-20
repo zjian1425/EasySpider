@@ -19,7 +19,7 @@ from AimShopSpider_CommodityID.items import AimshopspiderCommodityidItem
 """python + selenium + webdriver render(javascript)"""
 
 class Only(scrapy.Spider):
-    
+
     name = 'Only'
     allowed_domains = ['tmall.com']
     start_urls = ['https://only.tmall.com/search.htm?&pageNo=1']
@@ -49,14 +49,14 @@ class Only(scrapy.Spider):
         self.driver.quit()
 
     def parse(self, response):
-        for i in range(2, 67):
-            url = 'https://only.tmall.com/search.htm?&pageNo={0}'.format(i)
+        for i in range(2, 65):
+            url = 'https://only.tmall.com/search.htm?&search=y&scene=taobao_shop&pageNo={0}&tsearch=y#anchor'.format(i)
             '''iteration  / generation'''
             yield Request(url=url, callback=self.parse_detail)  # 注意这里调用不需要有()
 
     def parse_detail(self, response):
         '''use CSS Selector&REGEXP extract commodity_id'''
-    
+
         com_id_cluster = response.css('#J_ShopSearchResult img:nth-child(1)::attr(src)').extract_first()
         com_id_list = []
         print(com_id_cluster)

@@ -48,7 +48,7 @@ class Qimi(scrapy.Spider):
         self.driver.quit()
 
     def parse(self, response):
-        for i in range(2, 8):
+        for i in range(2, 7):
             url = 'https://qimi.tmall.com/search.htm?&pageNo={0}'.format(i)
             '''iteration  / generation'''
             yield Request(url=url, callback=self.parse_detail)  # 注意这里调用不需要有()

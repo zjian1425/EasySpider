@@ -106,9 +106,11 @@ class AimshopspiderCommodityidDownloaderMiddleware(object):
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
 
+
+from AimShopSpider_CommodityID.settings import account as act
 class SeleniumFirefoxRenderAjaxDownloaderMiddleware(object):
 
-    account = 'XXXXXXX' #用于判断是否已经登录
+    account = act #用于判断是否已经登录
     #思想是控制在同一个session中抓取数据
     def process_request(self,request,spider):
 
@@ -153,6 +155,6 @@ class SeleniumFirefoxRenderAjaxDownloaderMiddleware(object):
 
     def random_scroll_lenth(self):
 
-        length = random.uniform(500,4000)
+        length = random.uniform(500,3000)
         print('当前页面下拉距离为：{0}'.format(length))
         return length

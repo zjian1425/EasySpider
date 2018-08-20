@@ -22,7 +22,7 @@ class Zara(scrapy.Spider):
     
     name = 'Zara'
     allowed_domains = ['tmall.com']
-    start_urls = ['https://zara.tmall.com/category-1380747862-1318332528.htm?pageNo=1']
+    start_urls = ['https://zara.tmall.com/category-1380747862-1318332528.htm?spm=a1z10.1-b-s.w5001-14628668424.5.7f6d3c5a7ufoo9&search=y&catName=%C7%EF%B6%AC%D0%C2%C6%B7-%C5%AE%CA%BF&scene=taobao_shop#bd']
 
 
     """generation"""

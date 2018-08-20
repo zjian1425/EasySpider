@@ -14,7 +14,7 @@ from scrapy.xlib.pydispatch import dispatcher
 from scrapy import signals
 import re
 from AimShopSpider_CommodityID.items import AimshopspiderCommodityidItem
-
+from AimShopSpider_CommodityID.settings import veromoda
 """https://veromoda.tmall.com/"""
 """python + selenium + webdriver render(javascript)"""
 
@@ -22,7 +22,7 @@ class VeroModa(scrapy.Spider):
     
     name = 'VeroModa'
     allowed_domains = ['tmall.com']
-    start_urls = ['https://veromoda.tmall.com/category.htm?&pageNo=1']
+    start_urls = ['https://veromoda.tmall.com/category.htm?spm=a1z10.1-b-s.w5001-17277175636.9.306e7310e7sgLN&search=y&orderType=&scene=taobao_shop']
 
 
     """generation"""
@@ -49,8 +49,7 @@ class VeroModa(scrapy.Spider):
         self.driver.quit()
 
     def parse(self, response):
-        for i in range(2, 56):
-            url = 'https://veromoda.tmall.com/category.htm?&pageNo={0}'.format(i)
+        for url in veromoda:
             '''iteration  / generation'''
             yield Request(url=url, callback=self.parse_detail)  # 注意这里调用不需要有()
 
