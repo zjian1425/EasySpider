@@ -92,6 +92,10 @@ AUTOTHROTTLE_DEBUG = False
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
+
+#这里的url链接是通过另外一个selenium+requests 方式编写的代码抓下来的，由于其中spm的参数不知道是何种加密方式即加密原始数据，而且不带这个参数调试后发现会少数据，
+#所以这里才用了个笨方法，而且没有吧将两者合并在一起也是一个不足。
+
 veromoda = {
 'https://veromoda.tmall.com/category.htm?spm=a1z10.3-b-s.w4011-14529808362.118.e0163592OsYtbU&search=y&scene=taobao_shop&pageNo=2#anchor',
 'https://veromoda.tmall.com/category.htm?spm=a1z10.3-b-s.w4011-14529808362.119.963c3592dWJ8sy&search=y&scene=taobao_shop&pageNo=3#anchor',
