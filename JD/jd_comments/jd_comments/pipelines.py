@@ -7,12 +7,12 @@
 
 import pymysql
 from time import ctime
-
+from jd_comments.settings import Database as DB
 
 
 class JdCommentsPipeline(object):
     def __init__(self):
-        self.conn = pymysql.connect('IP', 'USERNAME', 'PASSWORD', 'DB_NAME', charset='utf8')
+        self.conn = pymysql.connect(DB['IP'], DB['USERNAME'], DB['PASSWORD'], DB['DB_NAME'], charset='utf8')
         self.cursor = self.conn.cursor()
 
     def process_item(self, item, spider):

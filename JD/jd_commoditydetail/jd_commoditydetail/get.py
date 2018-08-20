@@ -6,22 +6,20 @@
 # @File     : get.py
 
 import pymysql
+from jd_commoditydetail.settings import Database as DB
 
-def geturl(flag):
-    conn = pymysql.connect('IP', 'USERNAME', 'PASSWORD', 'DB_NAME', charset='utf8')
+def geturl(flag,**kwargs):
+    conn = pymysql.connect(DB['IP'], DB['USERNAME'], DB['PASSWORD'], DB['DB_NAME'], charset='utf8')
     cursor = conn.cursor()
-
     do_select = '''select com_url from jd_url'''
     cursor.execute(do_select)
 
     if flag==0:
 
         url = cursor.fetchone()
-
         conn.commit()
         cursor.close()
         conn.close()
-
         return str(url[0])
 
     elif flag==1:
@@ -31,9 +29,7 @@ def geturl(flag):
         urls=cursor.fetchall()
         for i in urls:
             url_list.append(str(i[0]) )
-
         conn.commit()
         cursor.close()
         conn.close()
-
         return url_list

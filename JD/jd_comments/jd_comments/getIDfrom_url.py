@@ -7,10 +7,10 @@
 
 
 import pymysql
-
+from jd_comments.settings import Database as DB
 def geturl(flag,name):
 
-    conn = pymysql.connect('IP','USERNAME','PASSWORD','DB_NAME',charset='utf8')
+    conn = pymysql.connect(DB['IP'], DB['USERNAME'], DB['PASSWORD'], DB['DB_NAME'], charset='utf8')
     cursor = conn.cursor()
     do_select = '''select com_url from jd_url where shop_name="{0}"'''.format(name)
     cursor.execute(do_select)
@@ -60,7 +60,6 @@ def UrlJoin(flag,name):
             c_url_list.append(first_page_url+i)
         return c_url_list
 
-import  sys
 
 def GetPrimaryKey_url(comments_url):
 

@@ -11,7 +11,6 @@ from scrapy.http import Request
 from selenium import webdriver
 from scrapy.xlib.pydispatch import dispatcher
 from scrapy import signals
-import re
 from jd_url.items import JdUrlItem
 
 """https://hm.tmall.com/"""

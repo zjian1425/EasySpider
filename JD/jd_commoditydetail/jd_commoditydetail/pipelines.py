@@ -7,11 +7,13 @@
 
 
 import pymysql
+from jd_commoditydetail.settings import Database as DB
+
 
 class JdCommoditydetailPipeline(object):
 
     def __int__(self):
-        self.conn = pymysql.connect('IP','USENAME','PASSWORD','DB_NAME',charset='utf8')
+        self.conn = pymysql.connect(DB['IP'], DB['USERNAME'], DB['PASSWORD'], DB['DB_NAME'], charset='utf8')
         self.cursor = self.conn.cursor()
 
     def process_item(self,item,spider):
