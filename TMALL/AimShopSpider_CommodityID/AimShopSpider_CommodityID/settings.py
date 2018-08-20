@@ -155,10 +155,10 @@ veromoda = {
 }
 
 Database = {
-    'IP':'xxxxx',
-    'USERNAME':'xxx',
-    'PASSWORD':'xxxxx',
-    'DB_NAME':'xxxxx',
+    'IP':'183.129.168.211',
+    'USERNAME':'hexi',
+    'PASSWORD':'hexi123',
+    'DB_NAME':'db_ecommerce',
 }
 
-account ='xxxxxxx'
+account ='g1200dragon'
