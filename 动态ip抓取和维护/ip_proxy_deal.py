@@ -6,7 +6,7 @@ import telnetlib
 class MySql(object):
 
 	def  __init__(self):
-		self.conn = pymysql.connect('192.168.40.103','zj','123456','haiming',charset='utf8')
+		self.conn = pymysql.connect('xxxxxx','xxx','xxxx','xxxx',charset='utf8')
 		self.cursor = self.conn.cursor()
 
 	def __del__(self):
