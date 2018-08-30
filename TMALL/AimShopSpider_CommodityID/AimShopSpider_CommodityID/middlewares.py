@@ -5,7 +5,7 @@
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-import time
+
 import random
 
 from scrapy import signals
@@ -123,8 +123,11 @@ class SeleniumFirefoxRenderAjaxDownloaderMiddleware(object):
         '''猜想：这一步操作是否可以放置在process_response中去控制'''
         while True:
             spider.driver.get(request.url)
+            spider.driver.maximize_window()
             content = spider.driver.page_source.encode('utf8', 'ignore')
-            if self.account not in str(content): #条件:
+            with open('1.txt','wb')as f:
+                f.write(content)
+            if self.account not in content: #条件:
                 time.sleep(20) #登录帐号
                 '''这里最好能实现自动登录利用selenium'''
                 '''手动操作：刷二维码（有可能需要两次）'''

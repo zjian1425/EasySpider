@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/AimShopSpider_CommodityID/pipelines.py" line="20" />
+    <bookmark url="file://$PROJECT_DIR$/AimShopSpider_CommodityID/pipelines.py" line="23" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="317e76ed-a384-4435-b5f9-1b0ee51d8702" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../JD/jd_comments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JD/jd_comments/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JD/jd_url/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JD/jd_url/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/.idea/AimShopSpider_Comments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/.idea/AimShopSpider_Comments.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AimShopSpider_Comments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AimShopSpider_Comments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AimShopSpider_CommodityID.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AimShopSpider_CommodityID.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimShopSpider_CommodityID/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/AimShopSpider_CommodityID/middlewares.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AimShopSpider_CommodityID/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AimShopSpider_CommodityID/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/VeroModa.py" beforeDir="false" afterPath="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/VeroModa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +23,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/AimShopSpider_CommodityID$test.coverage" NAME="test Coverage Results" MODIFIED="1534737952715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AimShopSpider_CommodityID$main.coverage" NAME="main Coverage Results" MODIFIED="1534752076718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AimShopSpider_CommodityID$HM.coverage" NAME="HM Coverage Results" MODIFIED="1532657569388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders" />
+    <SUITE FILE_PATH="coverage/AimShopSpider_CommodityID$test.coverage" NAME="test Coverage Results" MODIFIED="1534819414755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AimShopSpider_CommodityID$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1534751579023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AimShopSpider_CommodityID" />
+    <SUITE FILE_PATH="coverage/AimShopSpider_CommodityID$HM.coverage" NAME="HM Coverage Results" MODIFIED="1532657569388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders" />
+    <SUITE FILE_PATH="coverage/AimShopSpider_CommodityID$main.coverage" NAME="main Coverage Results" MODIFIED="1534830112094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1167984938">
@@ -63,31 +69,34 @@
     <session id="625845695">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="102" />
+          <entry key="py" value="241" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="102" />
+          <entry key="Python" value="241" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
-          <entry key="txt" value="2" />
+          <entry key="html" value="1" />
+          <entry key="py" value="16" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="8" />
+          <entry key="HTML" value="1" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -127,17 +136,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="159" column="25" lean-forward="true" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+            <state relative-caret-position="281">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="324">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#191#201#0" expanded="true" />
               </folding>
@@ -145,14 +154,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="110" column="60" lean-forward="true" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
+            <state relative-caret-position="429">
+              <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
               <folding>
-                <element signature="e#169#180#0" expanded="true" />
-                <marker date="1534753787175" expanded="true" signature="3830:3832" ph="..." />
+                <element signature="e#170#183#0" expanded="true" />
+                <element signature="e#2051#3694#0" />
               </folding>
             </state>
           </provider>
@@ -161,8 +170,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/VeroModa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="147" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="147" />
+            <state relative-caret-position="289">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="e#194#207#0" expanded="true" />
               </folding>
@@ -171,55 +180,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/pipelines.py">
+        <entry file="file://$PROJECT_DIR$/1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-              <folding>
-                <marker date="1534741902604" expanded="true" signature="597:606" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/HM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/Hstyle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-              <folding>
-                <element signature="e#192#205#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/Only.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-              <folding>
-                <element signature="e#190#203#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/PeaceBird.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="51" column="60" selection-end-line="72" />
+            <state relative-caret-position="126">
+              <caret line="25" column="5" selection-end-line="2388" selection-end-column="520" />
             </state>
           </provider>
         </entry>
@@ -230,6 +194,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -238,6 +203,7 @@
       <find>g1200d</find>
       <find>g1200</find>
       <find>Auto</find>
+      <find>1006</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -259,16 +225,17 @@
         <option value="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/Loytio.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/PeaceBird.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/Uniqlo.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_CommodityID/pipelines.py" />
-        <option value="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/VeroModa.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/Only.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/Hstyle.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/Zara.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/Qimi.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/VeroModa.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_CommodityID/middlewares.py" />
         <option value="$PROJECT_DIR$/AimShopSpider_CommodityID/settings.py" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -278,7 +245,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="7" />
     <option name="y" value="8" />
     <option name="width" value="833" />
@@ -290,7 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,29 +264,20 @@
               <item name="AimShopSpider_CommodityID" type="b2602c69:ProjectViewProjectNode" />
               <item name="AimShopSpider_CommodityID" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AimShopSpider_CommodityID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AimShopSpider_CommodityID" type="462c0819:PsiDirectoryNode" />
-              <item name="AimShopSpider_CommodityID" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AimShopSpider_CommodityID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AimShopSpider_CommodityID" type="462c0819:PsiDirectoryNode" />
-              <item name="AimShopSpider_CommodityID" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/爬虫/源代码/源代码/CrawlURL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -437,8 +394,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.pipelines" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.pipelines" />
         <item itemvalue="Python.HM" />
       </list>
     </recent_temporary>
@@ -457,10 +414,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="55" y="-4" width="1311" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15231362" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17336485" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -470,8 +428,8 @@
       <window_info anchor="bottom" id="Python Console" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32923076" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.5154778" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.44414535" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.42989215" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.44375962" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -526,12 +484,7 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test.py</url>
           <line>13</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/AimShopSpider_CommodityID/middlewares.py</url>
-          <line>132</line>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -579,13 +532,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/CleanDataAndStore.py" />
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/Zara.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -621,46 +567,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/VeroModa.py">
+    <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/PeaceBird.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="147" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="147" />
-          <folding>
-            <element signature="e#194#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <marker date="1534741902604" expanded="true" signature="597:606" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/HM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/Hstyle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-          <folding>
-            <element signature="e#192#205#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="560">
+          <caret line="51" column="60" selection-end-line="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/Only.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
+        <state relative-caret-position="560">
           <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding>
             <element signature="e#190#203#0" expanded="true" />
@@ -668,37 +584,360 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/PeaceBird.py">
+    <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/HM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="51" column="60" selection-end-line="72" />
+        <state relative-caret-position="560">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/Hstyle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#192#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="159" column="25" lean-forward="true" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#191#201#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="281">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="110" column="60" lean-forward="true" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
+        <state relative-caret-position="429">
+          <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
           <folding>
-            <element signature="e#169#180#0" expanded="true" />
-            <marker date="1534753787175" expanded="true" signature="3830:3832" ph="..." />
+            <element signature="e#170#183#0" expanded="true" />
+            <element signature="e#2051#3694#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AimShopSpider_CommodityID/spiders/VeroModa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#194#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="25" column="5" selection-end-line="2388" selection-end-column="520" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41174">
+          <caret line="2300" column="284" selection-start-line="2300" selection-start-column="284" selection-end-line="2300" selection-end-column="284" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#142143#142147#0" expanded="true" />
+            <element signature="e#142161#142165#0" expanded="true" />
+            <element signature="e#142178#142182#0" expanded="true" />
+            <element signature="e#142223#142227#0" expanded="true" />
+            <element signature="e#142264#142268#0" expanded="true" />
+            <element signature="e#142270#142274#0" expanded="true" />
+            <element signature="e#142280#142284#0" expanded="true" />
+            <element signature="e#142294#142298#0" expanded="true" />
+            <element signature="e#142323#142327#0" expanded="true" />
+            <element signature="e#142347#142351#0" expanded="true" />
+            <element signature="e#142357#142361#0" expanded="true" />
+            <element signature="e#142366#142370#0" expanded="true" />
+            <element signature="e#142391#142395#0" expanded="true" />
+            <element signature="e#142398#142402#0" expanded="true" />
+            <element signature="e#142423#142427#0" expanded="true" />
+            <element signature="e#142429#142433#0" expanded="true" />
+            <element signature="e#142458#142462#0" expanded="true" />
+            <element signature="e#142464#142468#0" expanded="true" />
+            <element signature="e#142502#142506#0" expanded="true" />
+            <element signature="e#142576#142580#0" expanded="true" />
+            <element signature="e#142641#142645#0" expanded="true" />
+            <element signature="e#142674#142678#0" expanded="true" />
+            <element signature="e#142681#142685#0" expanded="true" />
+            <element signature="e#142688#142692#0" expanded="true" />
+            <element signature="e#142745#142749#0" expanded="true" />
+            <element signature="e#142818#142822#0" expanded="true" />
+            <element signature="e#142939#142943#0" expanded="true" />
+            <element signature="e#142957#142961#0" expanded="true" />
+            <element signature="e#142961#142965#0" expanded="true" />
+            <element signature="e#142967#142971#0" expanded="true" />
+            <element signature="e#142971#142975#0" expanded="true" />
+            <element signature="e#142977#142981#0" expanded="true" />
+            <element signature="e#142989#142993#0" expanded="true" />
+            <element signature="e#142996#143000#0" expanded="true" />
+            <element signature="e#143109#143113#0" expanded="true" />
+            <element signature="e#143118#143122#0" expanded="true" />
+            <element signature="e#143175#143179#0" expanded="true" />
+            <element signature="e#143181#143185#0" expanded="true" />
+            <element signature="e#143210#143214#0" expanded="true" />
+            <element signature="e#143217#143221#0" expanded="true" />
+            <element signature="e#143246#143250#0" expanded="true" />
+            <element signature="e#143252#143256#0" expanded="true" />
+            <element signature="e#143290#143294#0" expanded="true" />
+            <element signature="e#143364#143368#0" expanded="true" />
+            <element signature="e#143429#143433#0" expanded="true" />
+            <element signature="e#143462#143466#0" expanded="true" />
+            <element signature="e#143469#143473#0" expanded="true" />
+            <element signature="e#143476#143480#0" expanded="true" />
+            <element signature="e#143529#143533#0" expanded="true" />
+            <element signature="e#143602#143606#0" expanded="true" />
+            <element signature="e#143715#143719#0" expanded="true" />
+            <element signature="e#143720#143724#0" expanded="true" />
+            <element signature="e#143724#143728#0" expanded="true" />
+            <element signature="e#143730#143734#0" expanded="true" />
+            <element signature="e#143734#143738#0" expanded="true" />
+            <element signature="e#143740#143744#0" expanded="true" />
+            <element signature="e#143750#143754#0" expanded="true" />
+            <element signature="e#143757#143761#0" expanded="true" />
+            <element signature="e#143862#143866#0" expanded="true" />
+            <element signature="e#143871#143875#0" expanded="true" />
+            <element signature="e#143928#143932#0" expanded="true" />
+            <element signature="e#143934#143938#0" expanded="true" />
+            <element signature="e#143963#143967#0" expanded="true" />
+            <element signature="e#143970#143974#0" expanded="true" />
+            <element signature="e#143999#144003#0" expanded="true" />
+            <element signature="e#144005#144009#0" expanded="true" />
+            <element signature="e#144043#144047#0" expanded="true" />
+            <element signature="e#144117#144121#0" expanded="true" />
+            <element signature="e#144182#144186#0" expanded="true" />
+            <element signature="e#144215#144219#0" expanded="true" />
+            <element signature="e#144222#144226#0" expanded="true" />
+            <element signature="e#144229#144233#0" expanded="true" />
+            <element signature="e#144282#144286#0" expanded="true" />
+            <element signature="e#144355#144359#0" expanded="true" />
+            <element signature="e#144468#144472#0" expanded="true" />
+            <element signature="e#144473#144477#0" expanded="true" />
+            <element signature="e#144477#144481#0" expanded="true" />
+            <element signature="e#144483#144487#0" expanded="true" />
+            <element signature="e#144487#144491#0" expanded="true" />
+            <element signature="e#144493#144497#0" expanded="true" />
+            <element signature="e#144503#144507#0" expanded="true" />
+            <element signature="e#144510#144514#0" expanded="true" />
+            <element signature="e#144615#144619#0" expanded="true" />
+            <element signature="e#144624#144628#0" expanded="true" />
+            <element signature="e#144681#144685#0" expanded="true" />
+            <element signature="e#144687#144691#0" expanded="true" />
+            <element signature="e#144716#144720#0" expanded="true" />
+            <element signature="e#144723#144727#0" expanded="true" />
+            <element signature="e#144748#144752#0" expanded="true" />
+            <element signature="e#144755#144759#0" expanded="true" />
+            <element signature="e#144788#144792#0" expanded="true" />
+            <element signature="e#144796#144800#0" expanded="true" />
+            <element signature="e#144813#144817#0" expanded="true" />
+            <element signature="e#144835#144839#0" expanded="true" />
+            <element signature="e#144856#144860#0" expanded="true" />
+            <element signature="e#144876#144880#0" expanded="true" />
+            <element signature="e#144884#144888#0" expanded="true" />
+            <element signature="e#144891#144895#0" expanded="true" />
+            <element signature="e#144912#144916#0" expanded="true" />
+            <element signature="e#144918#144922#0" expanded="true" />
+            <element signature="e#144943#144947#0" expanded="true" />
+            <element signature="e#144968#144972#0" expanded="true" />
+            <element signature="e#144997#145001#0" expanded="true" />
+            <element signature="e#145006#145010#0" expanded="true" />
+            <element signature="e#145015#145019#0" expanded="true" />
+            <element signature="e#145025#145029#0" expanded="true" />
+            <element signature="e#145054#145058#0" expanded="true" />
+            <element signature="e#145075#145079#0" expanded="true" />
+            <element signature="e#145108#145112#0" expanded="true" />
+            <element signature="e#145186#145190#0" expanded="true" />
+            <element signature="e#145203#145207#0" expanded="true" />
+            <element signature="e#145209#145213#0" expanded="true" />
+            <element signature="e#145238#145242#0" expanded="true" />
+            <element signature="e#145246#145250#0" expanded="true" />
+            <element signature="e#145271#145275#0" expanded="true" />
+            <element signature="e#145278#145282#0" expanded="true" />
+            <element signature="e#145304#145308#0" expanded="true" />
+            <element signature="e#145310#145314#0" expanded="true" />
+            <element signature="e#145339#145343#0" expanded="true" />
+            <element signature="e#145348#145352#0" expanded="true" />
+            <element signature="e#145357#145361#0" expanded="true" />
+            <element signature="e#145367#145371#0" expanded="true" />
+            <element signature="e#145396#145400#0" expanded="true" />
+            <element signature="e#145417#145421#0" expanded="true" />
+            <element signature="e#145462#145466#0" expanded="true" />
+            <element signature="e#145746#145750#0" expanded="true" />
+            <element signature="e#145750#145754#0" expanded="true" />
+            <element signature="e#145759#145763#0" expanded="true" />
+            <element signature="e#145788#145792#0" expanded="true" />
+            <element signature="e#145796#145800#0" expanded="true" />
+            <element signature="e#145821#145825#0" expanded="true" />
+            <element signature="e#145828#145832#0" expanded="true" />
+            <element signature="e#145899#145903#0" expanded="true" />
+            <element signature="e#145905#145909#0" expanded="true" />
+            <element signature="e#145938#145942#0" expanded="true" />
+            <element signature="e#145947#145951#0" expanded="true" />
+            <element signature="e#146018#146022#0" expanded="true" />
+            <element signature="e#146028#146032#0" expanded="true" />
+            <element signature="e#146061#146065#0" expanded="true" />
+            <element signature="e#146094#146098#0" expanded="true" />
+            <element signature="e#146127#146131#0" expanded="true" />
+            <element signature="e#146159#146163#0" expanded="true" />
+            <element signature="e#146164#146168#0" expanded="true" />
+            <element signature="e#146173#146177#0" expanded="true" />
+            <element signature="e#146177#146181#0" expanded="true" />
+            <element signature="e#146213#146217#0" expanded="true" />
+            <element signature="e#146222#146226#0" expanded="true" />
+            <element signature="e#146231#146235#0" expanded="true" />
+            <element signature="e#146265#146269#0" expanded="true" />
+            <element signature="e#146273#146277#0" expanded="true" />
+            <element signature="e#146302#146306#0" expanded="true" />
+            <element signature="e#146309#146313#0" expanded="true" />
+            <element signature="e#146379#146383#0" expanded="true" />
+            <element signature="e#146399#146403#0" expanded="true" />
+            <element signature="e#146428#146432#0" expanded="true" />
+            <element signature="e#146437#146441#0" expanded="true" />
+            <element signature="e#146501#146505#0" expanded="true" />
+            <element signature="e#146511#146515#0" expanded="true" />
+            <element signature="e#146568#146572#0" expanded="true" />
+            <element signature="e#146589#146593#0" expanded="true" />
+            <element signature="e#146657#146661#0" expanded="true" />
+            <element signature="e#146665#146669#0" expanded="true" />
+            <element signature="e#146714#146718#0" expanded="true" />
+            <element signature="e#146721#146725#0" expanded="true" />
+            <element signature="e#146770#146774#0" expanded="true" />
+            <element signature="e#146776#146780#0" expanded="true" />
+            <element signature="e#146809#146813#0" expanded="true" />
+            <element signature="e#146818#146822#0" expanded="true" />
+            <element signature="e#146827#146831#0" expanded="true" />
+            <element signature="e#146837#146841#0" expanded="true" />
+            <element signature="e#146870#146874#0" expanded="true" />
+            <element signature="e#146891#146895#0" expanded="true" />
+            <element signature="e#146928#146932#0" expanded="true" />
+            <element signature="e#147060#147064#0" expanded="true" />
+            <element signature="e#147064#147068#0" expanded="true" />
+            <element signature="e#147173#147177#0" expanded="true" />
+            <element signature="e#147177#147181#0" expanded="true" />
+            <element signature="e#147183#147187#0" expanded="true" />
+            <element signature="e#147244#147248#0" expanded="true" />
+            <element signature="e#147252#147256#0" expanded="true" />
+            <element signature="e#147281#147285#0" expanded="true" />
+            <element signature="e#147288#147292#0" expanded="true" />
+            <element signature="e#147371#147375#0" expanded="true" />
+            <element signature="e#147378#147382#0" expanded="true" />
+            <element signature="e#147395#147399#0" expanded="true" />
+            <element signature="e#147403#147407#0" expanded="true" />
+            <element signature="e#147421#147425#0" expanded="true" />
+            <element signature="e#147442#147446#0" expanded="true" />
+            <element signature="e#147463#147467#0" expanded="true" />
+            <element signature="e#147535#147539#0" expanded="true" />
+            <element signature="e#147539#147543#0" expanded="true" />
+            <element signature="e#147544#147548#0" expanded="true" />
+            <element signature="e#147548#147552#0" expanded="true" />
+            <element signature="e#147554#147558#0" expanded="true" />
+            <element signature="e#147558#147562#0" expanded="true" />
+            <element signature="e#147566#147570#0" expanded="true" />
+            <element signature="e#147574#147578#0" expanded="true" />
+            <element signature="e#147583#147587#0" expanded="true" />
+            <element signature="e#147587#147591#0" expanded="true" />
+            <element signature="e#147593#147597#0" expanded="true" />
+            <element signature="e#147614#147618#0" expanded="true" />
+            <element signature="e#147730#147735#0" expanded="true" />
+            <element signature="e#147750#147755#0" expanded="true" />
+            <element signature="e#147765#147770#0" expanded="true" />
+            <element signature="e#147810#147815#0" expanded="true" />
+            <element signature="e#147870#147875#0" expanded="true" />
+            <element signature="e#147890#147895#0" expanded="true" />
+            <element signature="e#147905#147910#0" expanded="true" />
+            <element signature="e#148117#148121#0" expanded="true" />
+            <element signature="e#148142#148146#0" expanded="true" />
+            <element signature="e#148147#148151#0" expanded="true" />
+            <element signature="e#148151#148155#0" expanded="true" />
+            <element signature="e#148157#148161#0" expanded="true" />
+            <element signature="e#148161#148165#0" expanded="true" />
+            <element signature="e#148169#148173#0" expanded="true" />
+            <element signature="e#148177#148181#0" expanded="true" />
+            <element signature="e#148186#148190#0" expanded="true" />
+            <element signature="e#148207#148211#0" expanded="true" />
+            <element signature="e#148213#148217#0" expanded="true" />
+            <element signature="e#148230#148234#0" expanded="true" />
+            <element signature="e#148238#148242#0" expanded="true" />
+            <element signature="e#148251#148255#0" expanded="true" />
+            <element signature="e#148259#148263#0" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#6;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#7;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#8;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#9;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#10;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#12;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#14;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#15;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#16;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#17;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#18;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#191#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
