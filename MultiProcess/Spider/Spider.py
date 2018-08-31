@@ -8,7 +8,6 @@
 
 
 from multiprocessing import Process, Queue
-
 import time
 from lxml import etree
 import requests
