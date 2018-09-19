@@ -15,7 +15,7 @@ import requests
 
 class HstyleSpider(Process):
     def __init__(self, url, q):
-        # 重写写父类的__init__方法
+        # overwrite
         super(HstyleSpider, self).__init__()
         self.url = url
         self.q = q
