@@ -5,13 +5,7 @@
 # @Date  : 18-8-27
 # @Contact  :zjian1425@gmail.com 
 #@Software : PyCharm
-# !/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @File  : Spider2.py
-# @Author: zjian
-# @Date  : 18-8-27
-# @Contact  :zjian1425@gmail.com
-# @Software : PyCharm
+
 
 from queue import Queue
 import threading
